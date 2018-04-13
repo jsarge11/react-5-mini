@@ -72,6 +72,5 @@ function mapStateToProps(state) {
   }
 }
 
-// i thought this should be function when returned?
-                      // vvvvvvvvvvvvvv
+
 export default connect(mapStateToProps, {increment, decrement})(App);
